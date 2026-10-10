@@ -1,6 +1,7 @@
 package com.examenT2.LP2_T2_Romani_Juan.model;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 import org.hibernate.annotations.DynamicInsert;
 
@@ -36,7 +37,7 @@ public class ProveedorRJ {
 	private String razonSocial;
 	
 	@Column(name = "fecha_registro")
-	private LocalDate fechaRegistro;
+	private LocalDateTime fechaRegistro;
 	
 	@Column(name = "direccion")
 	private String direccion;
